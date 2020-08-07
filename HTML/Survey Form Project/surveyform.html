@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<style>
+	##
+</style>
+
+<html>
+	<h1 id="title">Sushi Survey</h1>
+		<p id="description">Please Fill Out This Quick Survey About Your Favorite Types Of Sushi.</p>
+		 	<form id="survey-form">
+		 		<label id="name-label" for="name">Name</label>
+		 			<input type="text" id="name" name="name" placeholder="John Smith" required><br>
+		 		<label id="email-label" for="email">Email</label>
+		 			<input type="email" id="email" name="email" placeholder="johnsmith@netscape.com" required><br>
+		 		<label id="number-label" for="number">Level of Satisfaction</label>
+		 			<input type="number" id="number" name="number" min="1" max="5" placeholder="5"><br>
+		 		<label id="favorite" for="favorite">Please select your favorite sushi rolls.</label>
+		 			<input type="checkbox" id="california" name="california" value="California Roll"><br>
+		 			<input type="checkbox" id="spicytuna" name="spicytuna" value="Spicy Tuna Roll"><br>
+		 			<input type="checkbox" id="spicysalmon" name="spicysalmon" value="Spicy Salmon Roll"><br>
+		 			<input type="checkbox" id="philly" name="philly" value="Philadelphia Roll"><br>
+			 	<label for="ricetype">Please select your preferred rice type.</label>
+			 		<input type="radio" name="ricetype" id="whiterice" value="White Rice"><br>
+			 		<input type="radio" name="ricetype" id="brownrice" value="Brown Rice"><br>
+			 	<label for="soytype">Please select your preferred soy sauce.</label>
+			 		<input type="radio" name="soytype" id="regular" value="Regular"><br>
+			 		<input type="radio" name="soytype" id="low-sodium" value="Low-Sodium"><br>
+			 	<label for="dropdown">What is the best way for us to contact you?</label>	
+			 		<select id="dropdown" name="dropdown">
+			 			<option value="email" selected>Email</option>
+			 			<option value="phone">Phone</option>
+			 		</select>
+		 		<textarea id="feedback" name="feedback">
+		 			If You Have Any Other Favorites We Would Love To Hear About Them Here!
+		 		</textarea><br>
+		 		<button id="submit" type="submit">Submit</button>
+		 	</form>
+</html>
